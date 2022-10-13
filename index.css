@@ -1,35 +1,48 @@
-body{
-    display: flex;
-    /* background-color: red; */
-    justify-content: center ;
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2280977.jpg");
+  background-repeat: no-repeat;
+  
 }
-.dp{
-    border-radius: 50%;
-}
-
-.container{background-color: blue;}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /* background-color: #333; */
+.dp {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
-li{
-    float: left;
+#myModal {
+  background-image: url("https://media.tenor.com/MYZgsN2TDJAAAAAC/this-is.gif");
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.modal-content{
+    /* background-color: ; */
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    color: white !important;
+    border: 2px solid white !important;
+}
 
-  li a:hover {
-    background-color: aquamarine;
-    color: blue;
-  }
+.btn{
+    border: 1px solid white !important;
+}
+
+.dismiss{
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.vid{
+    height: 100% !important;
+    width: 100% !important; 
+}
+
+.text-box{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.special{
+    height: 50vh;
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+}
